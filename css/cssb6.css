@@ -1,0 +1,71 @@
+.back{
+    margin: auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse; 
+    width: 500px;
+}
+.image_top{
+    height: 200px; 
+    position: relative; 
+    border-bottom: 20px #675 solid;  
+    text-align: center; 
+    font-family: 'Great Vibes', cursive; 
+    color: #fff; 
+    font-size: 30px; 
+    text-transform: lowercase;
+    vertical-align: middle; 
+}
+.pseudo{
+    height: 50px; 
+    padding: 5px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 35px; 
+}
+.flexbox{
+    display: flexbox;
+    width: 100%; 
+    padding: 5px;
+    text-align: justify;
+}
+.cartidentite{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px; 
+    text-transform: lowercase;
+}
+.image_avatar{
+    width: 200px; 
+    height:320px; 
+    padding-right: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px #999;
+}
+.presentation_block{
+    padding: 5px;
+    border-bottom: 20px solid #675; 
+    text-align: justify;
+}
+.presentation_image__radius{
+    border-radius: 50px; 
+    box-shadow: 0 0 20px 2px #999;
+}
+.presentation_titre{
+    font-size: 30px; 
+    font-family: 'Great Vibes', cursive; 
+    text-transform: lowercase; 
+    text-align: center; 
+}
+.presentation_topborder{
+    border-top: solid 1px #ccc; 
+    padding-top: 10px;
+}
+.behind_block{
+    text-align: justify; 
+    padding: 5px; 
+    height: 100px;
+}
+.behind_image{
+    float: right;
+    margin: 5px;
+}
