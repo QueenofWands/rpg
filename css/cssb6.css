@@ -1,43 +1,49 @@
 .back{
-    margin: auto;
-    border: 1px solid #ccc;
-    border-collapse: collapse; 
     width: 500px;
+    height:auto;
+    margin: auto;
+    border: 1px solid b09fc8;
+    border-collapse: collapse; 
 }
 .image_top{
+    display: table-cell; 
+    width: 500px;
     height: 200px; 
-    position: relative; 
-    border-bottom: 20px #675 solid;  
+    padding: 11px; 
+    border-bottom: 20px #b09fc8 solid;
     text-align: center; 
     font-family: 'Great Vibes', cursive; 
     color: #fff; 
     font-size: 30px; 
-    text-transform: lowercase;
-    vertical-align: middle; 
+    text-transform: lowercase; 
+    vertical-align: bottom;
 }
-.pseudo{
-    height: 50px; 
-    padding: 5px;
+.pseudo{ 
+    padding:5px;
     text-align: center;
-    font-family: 'Great Vibes', cursive; 
-    font-size: 35px; 
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
 }
 .flexbox{
-    display: flexbox;
-    width: 100%; 
-    padding: 5px;
+    display:
+    flex;width: 100%;
     text-align: justify;
+}
+.cartidentite_block{
+    width: 66.7%;
+    height:225px;
+    padding:11px;
+    overflow:auto;
 }
 .cartidentite{
     text-align: center;
     font-family: 'Great Vibes', cursive;
-    font-size: 30px; 
+    font-size: 30px;
     text-transform: lowercase;
 }
 .image_avatar{
-    width: 200px; 
-    height:320px; 
-    padding-right: 5px;
+    width: 33.3%; 
+    height:250px;
     text-align: center;
     box-shadow: 0 0 20px #999;
 }
