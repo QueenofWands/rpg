@@ -53,6 +53,8 @@
     text-align: justify;
 }
 .presentation_image__radius{
+    width:100px;
+    height:100px;
     border-radius: 50px; 
     box-shadow: 0 0 20px 2px #999;
 }
